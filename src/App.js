@@ -1,3 +1,4 @@
+import logo from "./images/company.png";
 import './App.css';
 
 function App() {
@@ -5,7 +6,7 @@ function App() {
     <div className="header">
     <div className="header-content">
     <div>
-        <img className="company-logo" src="../assests/images/company logo.png" alt="sample-logo" width="100x" height="50px"></img>
+        <img className="company-logo" src={logo} alt="sample-logo" width="100x" height="50px"></img>
     </div>
     <div>
         <ul className="header-unorder">
